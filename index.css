@@ -114,7 +114,8 @@ padding-top: 2%;
 }
 
 .my-face {
-  width: 45%;
+  max-width: 55%;
+  height: auto;
   border-radius: 20px;
 }
 
@@ -196,12 +197,59 @@ padding-top: 2%;
 .blog-btn:hover {
   opacity: 1;
 }
+
+.footer{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 40vh;
+  margin-top: 60px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+  display: flex;
+}
+
+.insta-png {
+  max-width: 35px;
+  height: 35px;
+  margin-top: 70px;
+  margin-left:10px;
+  float: left;
+
+}
+
+.twitter-png {
+  max-width: 59px;
+  height: 59px;
+  margin-top: 58px;
+  margin-left: 10px;
+  float: middle;
+}
+
+.twitch-png {
+  max-width: 35px;
+  height: 35px;
+  margin-top: 70px;
+  margin-left: 10px;
+  float: right;
+}
+
+.footer-text {
+  color: rgb(90, 90, 90);
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 160px;
+  margin-left: -150px;
+}
+
+
 @media (min-width: 900px) {
 
 .rec-proj-container {
   margin-top: 20px;
   padding: 5px;
-  border:  6px black solid;
+  border:  6px rgb(0, 0, 0) solid;
   width: 100%;
   height: auto;
   overflow: hidden;
