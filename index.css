@@ -299,7 +299,7 @@ padding-top: 2%;
 }
 
 @media screen and (max-width: 900px) {
-  .leftcolumn, .rightcolumn { 
+  .leftcolumn { 
     width: 100%;
     padding: 0;
   }
@@ -311,11 +311,15 @@ padding-top: 2%;
   .blog-desc {
     font-size: 24px;
   }
+
+  .rightcolumn{
+    display: none;
+  }
 }
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 900px) { 
 
 .rec-proj-container {
   margin-top: 20px;
